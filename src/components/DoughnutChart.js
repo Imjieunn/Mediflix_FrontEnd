@@ -54,6 +54,7 @@ const DoughnutChart = () => {
     }, []);
 
     return <canvas id="myChart" />;
+    // return <div> hello </div>;
 };
 
 export default DoughnutChart;
