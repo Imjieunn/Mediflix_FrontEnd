@@ -50,6 +50,22 @@ const data = {
     ],
 };
 
-export default function BarChart() {
-    return <Bar options={options} data={data} style={{ width: "90%", height: "100%" }} />;
+const data2 = {
+    labels,
+    datasets: [
+        {
+            label: '신규 유저의 평균 시청기간',
+            data: [80, 50, 10, 20, 40, 30, 45, 55],
+            backgroundColor: ['#FF0000', '#999999', '#FF0000', '#FF0000', '#999999', '#999999', '#FF0000', '#999999'],
+        },
+    ],
+};
+
+export default function BarChart({ num }) {
+    if (num == '1') {
+        return <Bar options={options} data={data} style={{ width: "90%", height: "100%" }} />;
+    }
+    else {
+        return <Bar options={options} data={data2} style={{ width: "90%", height: "100%" }} />;
+    }
 }

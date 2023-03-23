@@ -1,8 +1,15 @@
 import "../assets/styles/Row3_3.css";
 import { Space, Switch } from 'antd';
-import BarChart from "./BarChart";
+import { useState } from 'react';
+import ChangeBarChart from "./changeBarChart";
 
 export default function Row3_3() {
+
+    const [checked, setChecked] = useState(true);
+    const onChange = () => {
+        setChecked(!checked);
+    }
+
     return (
         <div className="row3_3_content" >
             <div className="row3_3_content_1">
@@ -15,15 +22,15 @@ export default function Row3_3() {
                         <Switch
                             checkedChildren="신규"
                             unCheckedChildren="유저"
-                            defaultChecked
+                            onClick={onChange}
                         />
                     </Space>
                 </div>
             </div>
             <div className="row3_3_content_2">
-                <div className='chart'><BarChart /></div>
-                {/* <div className='chart_text'>설명</div> */}
+                <ChangeBarChart check={checked} />
             </div>
+
         </div>
     );
 }
