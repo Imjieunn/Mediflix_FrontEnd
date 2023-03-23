@@ -39,13 +39,22 @@
     width: 50%;
 }
 
-.row2_2_content_1_button button {
+.btn {
     border-radius: 8px;
     background-color: #999999;
     border: none;
     color: white;
     width: 48px;
     height: 29px;
+}
+
+.btnactive {
+    border-radius: 8px;
+    border: none;
+    color: white;
+    width: 48px;
+    height: 29px;
+    background-color: red;
 }
 
 .row2_2_content_2 .image {
@@ -57,6 +66,7 @@
     width: 100%;
     height: 90%;
     margin-top: 7px;
+    border-radius: 5px;
 }
 
 .row2_2_content_2 .text .title1,
@@ -74,7 +84,7 @@
 }
 
 .row2_2_content_2 .view {
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .row2_2_content_3 .line {
@@ -96,6 +106,7 @@
 .line .image img {
     width: 70%;
     height: 90%;
+    border-radius: 5px;
 }
 
 .line .text {
