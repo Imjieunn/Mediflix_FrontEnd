@@ -8,15 +8,16 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend, Title } from 'chart.js';
 ChartJS.register(ArcElement, Tooltip, Legend, Title);
 
 const data1 = {
-    labels: ['신경의학과', '피부과', '내과', '산부인과', '그 외'],
+    labels: ['신경의학과', '정형외과', '가정의학과', '소화기내과', '내분비내과', '류마티스내과'],
     datasets: [
         {
             label: '%',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [23, 13, 16, 14, 20, 14],
             backgroundColor: [
                 '#FF0000',
                 '#FA7B7B',
                 '#F9ACAC',
+                '#D9B9D9',
                 '#D9D9D9',
                 '#FFFFFF',
             ],
@@ -29,15 +30,16 @@ const data1 = {
     ],
 };
 const data2 = {
-    labels: ['신경의학과', '피부과', '내과', '산부인과', '그 외'],
+    labels: ['신경의학과', '정형외과', '가정의학과', '소화기내과', '내분비내과', '류마티스내과'],
     datasets: [
         {
             label: '%',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [28, 28, 12, 19, 10, 2],
             backgroundColor: [
                 '#FF0000',
                 '#FA7B7B',
                 '#F9ACAC',
+                '#D9B9D9',
                 '#D9D9D9',
                 '#FFFFFF',
             ],
@@ -57,7 +59,7 @@ const option1 = {
                 color: 'black',
                 usePointStyle: true,
                 font: {
-                    size: 10,
+                    size: 7,
                 }
             }
         },
@@ -81,7 +83,7 @@ const option2 = {
                 color: 'black',
                 usePointStyle: true,
                 font: {
-                    size: 10,
+                    size: 7,
                 }
             }
         },

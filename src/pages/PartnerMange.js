@@ -1,10 +1,11 @@
 import React from 'react';
+import partners from "../assets/imgs/partners.png";
 
 function PartnerMange() {
   return (
+
     <div>
-      <h2>PartnerMange</h2>
-      <p>This is PartnerMange screen!</p>
+      <img src={partners} alt="페이지1"></img>
     </div>
   );
 }

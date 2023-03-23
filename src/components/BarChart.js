@@ -51,5 +51,5 @@ const data = {
 };
 
 export default function BarChart() {
-    return <Bar options={options} data={data} style={{ width: "90%", height: "90%" }} />;
+    return <Bar options={options} data={data} style={{ width: "90%", height: "100%" }} />;
 }

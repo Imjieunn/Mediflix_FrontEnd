@@ -5,6 +5,11 @@ body {
   width: 1920px;
   margin: 0 auto;
   font-family: 'Pretendard';
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .box {
@@ -25,18 +30,19 @@ body {
 .next_sidebar {
   display: flex;
   flex-direction: row;
-  height: 979px;
+  height: 976px;
 }
 
 .sidebar2 {
   display: flex;
   flex-direction: row;
-  height: 979px;
+  height: 976px;
 }
 
 .sidebar_wrapper {
   top: 105px;
   width: 246px;
+  /* width: 210px; */
   height: 100%;
 }
 
