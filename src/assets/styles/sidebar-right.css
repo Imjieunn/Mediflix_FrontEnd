@@ -1,70 +1,54 @@
-.sidebar-right {
-  width: 200px;
-  height: 979px;
-  background-color: #f2eded;
-  border: 1px solid #ddd;
-  padding: 10px;
-  transition: all 0.3s ease;
-
+ .sidebar-right {
+    width: 278px;
+    height: 979px;
+    background-color: #F5F5F5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    
 }
 
-.sidebar-right-item {
-  flex: 1px;
-  color: black;
-  text-align: center;
+.my-profile {
+  font-size: 21px;
+  font-weight: 700;
 }
 
-.sidebar-right.open {
-  width: 50px;
-  padding-right: 10px;
+.below {
+  right: 0;
 }
+/* 
+  .sidebar {
+    position: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 240px;
+    background-color: white;
+    overflow-x: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
 
+  .sidebar.open {
+    transform: translateX(-240px);
+  }
 
+  .sidebar-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 200px;
+    height: 979px;
+    background-color: #f2eded;
+    border: 1px solid #ddd;
+  }
+  
+  .sidebar-right img {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+   */
+  
+  
+  
+  
+  
 
-
-
-
-.sidebar-right {
-  width: 220px;
-  height: 978px;
-  background-color: #f2eded;
-  border: 1px solid #ddd;
-  padding: 10px;
-}
-
-.SmallBox .title {
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin-bottom: 5px;
-}
-
-.SmallBox {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-
-.sidebar-right-item-extra-boxes {
-  display: flex;
-  margin-top: 8px;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.sidebar-right-item-extra-box {
-  width: 180px;
-  height: 50px;
-  margin-right: 8px;
-  background-color: #bfbfbf;
-  border-radius: 4px;
-  text-align: left;
-  padding: 5px;
-  font-size: 9px;
-}
-
-.sidebar-right-item {
-  flex: 1px;
-  color: black;
-  text-align: center;
-}

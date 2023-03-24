@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { createGlobalStyle } from 'styled-components';
 
 import Header from './Header';
+import SidebarLeft from './SidebarLeft';
+import TestSidebar from './TestSidebar'
 import Row1_1 from './Row1_1';
 import Row1_2 from './Row1_2';
 import Row2_1 from './Row2_1';
@@ -10,9 +11,6 @@ import Row2_3 from './Row2_3';
 import Row3_1 from './Row3_1';
 import Row3_2 from './Row3_2';
 import Row3_3 from './Row3_3';
-import SidebarLeft from './SidebarLeft';
-import SidebarRight from './SidebarRight';
-import TodoList from './TodoList';
 
 const API = "http://13.124.122.107:8080/logs?selectDate=2023-03-24T06:02:24";
 
@@ -77,7 +75,7 @@ function Dashboard() {
                 </div>
                 <div className='sidebar2'>
                     <aside className='sidebar_wrapper'>
-                        {/* <SidebarRight /> */}
+                        <TestSidebar />
                     </aside>
                 </div>
             </div>
@@ -87,14 +85,3 @@ function Dashboard() {
 }
 
 export default Dashboard;
-
-
-
-
-{/* <SidebarLeft/>
-            <Routes>
-              <Route path="/" exact component={Home} />
-              <Route path="/ServiceUserManage" component={ServiceUserManage} />
-              <Route path="/ContentsManage" component={ContentsManage} />
-              <Route path="/PartnerMange" component={PartnerMange} />
-            </Routes> */}

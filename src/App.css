@@ -46,6 +46,12 @@ body::-webkit-scrollbar {
   height: 100%;
 }
 
+.sidebar_wrapper2 {
+  top: 105px;
+  width: 250px;
+  height: 100%;
+}
+
 .row2_1,
 .row2_2,
 .row2_3,

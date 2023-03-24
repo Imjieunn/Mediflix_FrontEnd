@@ -1,4 +1,5 @@
 import "../assets/styles/Row1_1.css";
+import UserAreaChart from "./UserAreaChart";
 
 export default function Row1_1() {
     return (
@@ -10,14 +11,17 @@ export default function Row1_1() {
                 <button>지난주 그래프 겹쳐보기</button>
                 <nav className="row1_1_graph_text">
                     <ul>
-                        <li>페이지 방문 횟수</li>
-                        <li>접속유지수</li>
-                        <li>시청완주수</li>
+                        <div className="a">페이지 방문 횟수</div>
+                        <div className="b">접속 유저 수</div>
+                        <div className="c">시청 완주 수</div>
                     </ul>
-                </nav>
+                    </nav>
+
             </div>
             <div className="row1_1_content_2">
-                그래프
+                <div className="chart">
+                    <UserAreaChart/>
+                </div>
             </div>
         </div>
     );

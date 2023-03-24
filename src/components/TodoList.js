@@ -2,13 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import TodoItem from "./TodoItem";
 import plusButton from "../assets/imgs/plusbutton.png";
-import { style } from "@mui/system";
  
 const TodoListBlock = styled.div`
-    flex: 1;
-    padding: 10px 0px;
-    padding-bottom: 48px;
-    overflow-x: auto;
+  margin-top: 350px;
 `;
 
 const TodoItemBox = styled.div`
@@ -24,23 +20,32 @@ const PlusButton = styled.img`
   width: 22px;
   height: 22px;
   border-radius: 100%;
+  margin-left: 99px;
+  margin-top: 27px;
 `;
 
+const TodoName = styled.div`
+ margin-bottom: 20px;
+ margin-top: 100px;
+`
 
 function TodoList() {
     return (
         <TodoListBlock>
+         <TodoName>
+            <div style={{ fontWeight: 'bold'}}>업무보드</div>
+         </TodoName>
             <TodoItemBox>
-                <TodoItem text="[LIFE 실시간 인기 게시글]
-                 직전주 LIFE 신규 게시글 리뷰하기" done={true} />
+                <TodoItem text1="[LIFE 실시간 인기 게시글]"
+                text2="직전주 LIFE 신규 게시글 리뷰하기" done={false} />
             </TodoItemBox>
             <TodoItemBox>
-                <TodoItem text="[LIFE 실시간 인기 게시글]
-                1분기 페이지 이탈률 정리 후 보고" done={true} />
+                <TodoItem text1="[LIFE 실시간 인기 게시글]"
+                text2="1분기 페이지 이탈률 정리 후 보고" done={false} />
             </TodoItemBox>  
             <TodoItemBox>              
-                <TodoItem text="[ONAIR 콘텐츠 관리]
-                ONAIR 콘텐츠 실시간 모니터링 보고서 작성" done={false} />
+                <TodoItem text1="[ONAIR 콘텐츠 관리]"
+                text2="ONAIR 콘텐츠 실시간 모니터링" done={false} />
             </TodoItemBox>
             <TodoItemBox>
                 <PlusButton img src={ plusButton } />
