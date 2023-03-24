@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mediflix_Dashboard/static/css/main.01317ae6.css",
+    "main.js": "/mediflix_Dashboard/static/js/main.dee77c6d.js",
+    "static/js/787.5624a885.chunk.js": "/mediflix_Dashboard/static/js/787.5624a885.chunk.js",
+    "static/media/contents2.png": "/mediflix_Dashboard/static/media/contents2.2a993331897540515ee4.png",
+    "static/media/contents1.png": "/mediflix_Dashboard/static/media/contents1.7b1f5dbbcdd7e12bd32f.png",
+    "static/media/partners.png": "/mediflix_Dashboard/static/media/partners.67923f1f7b9d4c6d7c49.png",
+    "static/media/OnAir.png": "/mediflix_Dashboard/static/media/OnAir.bdee236967e46add9424.png",
+    "static/media/members1.png": "/mediflix_Dashboard/static/media/members1.21634ea74b66acb03c15.png",
+    "static/media/members2.png": "/mediflix_Dashboard/static/media/members2.3d4fe0bade67febc5b6b.png",
+    "static/media/members3.png": "/mediflix_Dashboard/static/media/members3.c20038042ffb6be6d5b4.png",
+    "static/media/topContent2_week.png": "/mediflix_Dashboard/static/media/topContent2_week.aafa77beeb7a7dc1f2ad.png",
+    "static/media/topContent_week.png": "/mediflix_Dashboard/static/media/topContent_week.b0511aff4c27e3580bd2.png",
+    "static/media/topContent2_month.png": "/mediflix_Dashboard/static/media/topContent2_month.e71a5e8655a9fa904c7d.png",
+    "static/media/topContent.png": "/mediflix_Dashboard/static/media/topContent.2004699623cbe96daec2.png",
+    "static/media/profile.png": "/mediflix_Dashboard/static/media/profile.3c2357bb9a6aa750a2e1.png",
+    "index.html": "/mediflix_Dashboard/index.html",
+    "main.01317ae6.css.map": "/mediflix_Dashboard/static/css/main.01317ae6.css.map",
+    "main.dee77c6d.js.map": "/mediflix_Dashboard/static/js/main.dee77c6d.js.map",
+    "787.5624a885.chunk.js.map": "/mediflix_Dashboard/static/js/787.5624a885.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01317ae6.css",
+    "static/js/main.dee77c6d.js"
+  ]
+}
